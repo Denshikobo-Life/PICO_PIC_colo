@@ -25,7 +25,7 @@ Start PICO with uf2 file prepared
 2)reset PICO
 3)release bootsel sw
 4)type as follows
-> cp PICO/build/PICO_PIC_colo.uf2 /media/pi/RPI-RP2
+'> cp PICO/build/PICO_PIC_colo.uf2 /media/pi/RPI-RP2'
 
 Then, PICO starts blinking!
 
@@ -51,10 +51,7 @@ Set build environment
 2)Open source folder PThon & PICO on VScode 
 3)Set tool chain Pyhon3.? and gcc_arm_none_eabi
 4)Set pico-sdk path in CMakeList.txt about line 10
-# initalize pico_sdk from installed location
-# (note this can come from environment, CMake cache etc)
 set(PICO_SDK_PATH "~/pico/pico-sdk")
-#set(PICO_SDK_PATH "C:/common/pico-project/pico-sdk")
 
 Step6.
 Clearn build at terminal on VScode for PICO
