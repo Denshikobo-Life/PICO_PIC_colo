@@ -8,3 +8,6 @@ So,you may start PICO programming with prepare the necessary bare minimum.(USB c
 custom.py and custom.c are start pionts of your application.
 
 More informations will take from PDF file.
+
+2021_0620
+PICO_PIC_colo works on WindowsPC & RaspberryPi.
