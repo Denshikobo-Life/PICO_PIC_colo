@@ -36,9 +36,9 @@ in PICO_PIC_colo_comm.py
 about line 18
 
 def open():
-    global uartport
-    uartport = serial.Serial(
-                port="/dev/ttyACM0",  <== USB serial
+ global uartport
+ uartport = serial.Serial(
+ port="/dev/ttyACM0",  <== USB serial
 
 Step4.
 run PICO_PIC_colo.py
@@ -47,8 +47,8 @@ push execute button on VScode for Python
 Step5.
 Set build environment
 
-1) Open VScodes for Python and PICO(C)
-2) Open source folder PThon & PICO on VScode
+1) Open VScodes for Python and PICO
+2) Open source folder Python & PICO on VScode
 3) Set tool chain Pyhon3.? and gcc_arm_none_eabi
 4) Set pico-sdk path in CMakeList.txt about line 10
 set(PICO_SDK_PATH "~/pico/pico-sdk")
