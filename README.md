@@ -21,10 +21,10 @@ Unzip PICO_PIC_colo.zip at your project folder like as ~/pico/pico_project/PICO_
 Step2.
 Start PICO with uf2 file prepared
 
-1)push bootsel sw
-2)reset PICO
-3)release bootsel sw
-4)type as follows
+1) push bootsel sw
+2) reset PICO
+3) release bootsel sw
+4) type as follows
 '> cp PICO/build/PICO_PIC_colo.uf2 /media/pi/RPI-RP2'
 
 Then, PICO starts blinking!
@@ -47,10 +47,10 @@ push execute button on VScode for Python
 Step5.
 Set build environment
 
-1)Open VScodes for Python and PICO(C)
-2)Open source folder PThon & PICO on VScode
-3)Set tool chain Pyhon3.? and gcc_arm_none_eabi
-4)Set pico-sdk path in CMakeList.txt about line 10
+1) Open VScodes for Python and PICO(C)
+2) Open source folder PThon & PICO on VScode
+3) Set tool chain Pyhon3.? and gcc_arm_none_eabi
+4) Set pico-sdk path in CMakeList.txt about line 10
 set(PICO_SDK_PATH "~/pico/pico-sdk")
 
 Step6.
