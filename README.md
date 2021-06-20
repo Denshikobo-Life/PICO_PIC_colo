@@ -48,7 +48,7 @@ Step5.
 Set build environment
 
 1)Open VScodes for Python and PICO(C)
-2)Open source folder PThon & PICO on VScode 
+2)Open source folder PThon & PICO on VScode
 3)Set tool chain Pyhon3.? and gcc_arm_none_eabi
 4)Set pico-sdk path in CMakeList.txt about line 10
 set(PICO_SDK_PATH "~/pico/pico-sdk")
