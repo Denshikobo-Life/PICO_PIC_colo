@@ -76,7 +76,7 @@ Complete!
 PICO_PIC_colo supports debugging
 -------------------------------------
 PICO_PIC_colo is a GUI application platform.
-But, It is useful on debugging phase, even if you develope stand alone application.
+But, It is useful on debugging phase, even if you will develope stand alone application.
 
 PICO_PIC_colo has check point function.
 You can use check_point functions like below.
