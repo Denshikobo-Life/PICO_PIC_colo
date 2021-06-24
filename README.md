@@ -80,7 +80,7 @@ But, It is useful on debugging phase, even if you develope stand alone applicati
 
 PICO_PIC_colo has check point function.
 You can use check_point functions like below.
-
+/*
 // call from main_init() @PICO_Pic_colo.c
 void custom_init(void)
 {
@@ -116,7 +116,7 @@ void custom_main() {
         check_point(5); // It sets as HOLD_MODE
     }
 }
-
+*/
 This is a sample to explain how to work check_points.
 
 Ofcause, Your program is more complex, and you set check_point on several path.
