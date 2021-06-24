@@ -1,0 +1,62 @@
+PICO_PIC_colo function list
+(It is same as check list before release)
+
+1) Start PICO_PIC_colo Main Window
+   SDK path is correct @ CMakeLists.txt
+   PORT name is correct @PICO_PIC_colo_comm.py
+
+2) Window Open/Close
+   cycle count is over 100 when open only main window
+   cycle count is about 30`50 when show_DATA & cp_window open
+
+3) Open choose FILE window
+   push browse button
+   ==> open file chooser
+   Open elf file
+   ==> close file chooser
+   push select button
+   ==> update select_var_list
+   ==> clear disp_var_list
+
+4) Select_var_list
+   Input search string
+   ===> display select_var_list which match string
+   append button cause append select_var_list on disp_var_list 
+   reset button cause initialize select_var_list & clear disp_var_list
+
+5) Disp_var_list
+   push update button
+   ==> LED turn green on and then return white
+   ==> get current value from PICO
+       ==> single var_list
+       ==> multiple var_list
+       ==> large buffer(1024bytes)
+   select var in disp_var_list
+   ==> edit in textbox
+   ==> send it to PICO
+   ==> check current value which updated
+   push change button
+   ==> 'HOLD' text change to 'AUTO'
+   ==> LED blinking per sec
+   ==> disp current value repeatedly
+   ( It means that debugger serial comm works well!)
+
+6) open check_point_window
+   ==> pass_count is over 30000 @ cp_00
+   ==> hold_modes are like as PASS AUTO AUTO AUTO ATUO HOLD PASS ..
+   open custom_window and push send button
+   ==> show <B> under CP01
+   ==> move <B> to next (CP02..04) automaticaly
+   ==> stop <B> at CP05
+   push release button
+   ==> disapear <B> at CP05
+   pass_count at CP00 is zero while <B> is shown
+   ==> break condition is hold on @custom_main loop
+
+7) open custom_window
+   input some text in upper text box
+   push send button
+   ==> echo back text shows in lower text box
+   ( It means that user serial comm works well!)
+
+
