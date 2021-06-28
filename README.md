@@ -12,6 +12,12 @@ More informations will take from PDF file.
 -------------------------------------
 Recent Changes
 -------------------------------------
+2021_0628
+PICO_PIC_colo updates to beta 3.
+This version car read/write large buffer upto 1024bytes.
+And "Hide Main" button works well.
+I hope this is final Beta :-p
+
 2021_0624
 PICO_PIC_colo updates to beta 2
 Sorry, I find some bugs when checking.
