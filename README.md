@@ -14,7 +14,7 @@ Recent Changes
 -------------------------------------
 2021_0628
 PICO_PIC_colo updates to beta 3.
-This version car read/write large buffer upto 1024bytes.
+This version can read/write large buffer upto 1024bytes.
 And "Hide Main" button works well.
 I hope this is final Beta :-p
 
