@@ -12,6 +12,10 @@ More informations will take from PDF file.
 -------------------------------------
 Recent Changes
 -------------------------------------
+2021_0806
+Upload i2c_scanner, which is tiny application sample of PICO_PIC_colo.
+i2c_scanner.zip includes PICO_PIC_colo beta3, So you may down load this zip file only. 
+
 2021_0628
 PICO_PIC_colo updates to beta 3.
 This version can read/write large buffer upto 1024bytes.
