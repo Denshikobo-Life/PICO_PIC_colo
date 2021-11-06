@@ -1,17 +1,27 @@
 # PICO_PIC_colo
-It is GUI Application Platform for RASPI PICO , has some debugging facilities.
+It is GUI Application Platform for RASPI PICO. And it has some debugging facilities.
+So,if you want to create stand alone application,it is good idea to use PICO_PIC_colo2 only debugging phase.
 
 GUI part(on windows PC) is written by PySimpleGUI and PICO part is written by C.
 GUI part and PICO part communicate with USB_Serial.
 
-So,you may start PICO programming with prepare the necessary bare minimum.(USB cable and jumper wire, of course PICO board! )
+So,you may start PICO programming with prepare the necessary bare minimum.(USB cable and jumper wire, and of course PICO board! )
 custom.py and custom.c are start pionts of your application.
+( Or, they are debugging window to you)
 
 More informations will take from PDF file.
 
 -------------------------------------
 Recent Changes
 -------------------------------------
+2021_1019
+PICO_PIC_colo is version up to ver.2.
+(1)Variables which defined in PICO_PIC_colo debugger prefixed with PPC_.
+ So, user should not touch variables with PPC_,and others are free to user.
+(2)User can use core1 freely.
+void core1_entry() function is moved to custom.c 
+Sample program uses core1 to blink LED.
+
 2021_0806
 Upload i2c_scanner, which is tiny application sample of PICO_PIC_colo.
 i2c_scanner.zip includes PICO_PIC_colo beta3, So you may down load this zip file only. 
