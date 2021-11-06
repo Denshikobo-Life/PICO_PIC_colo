@@ -1,6 +1,6 @@
 # PICO_PIC_colo
 It is GUI Application Platform for RASPI PICO. And it has some debugging facilities.
-So,if you want to create stand alone application,it is good idea to use PICO_PIC_colo2 only debugging phase.
+So,if you want to create stand alone application,it is good idea to use PICO_PIC_colo only debugging phase.
 
 GUI part(on windows PC) is written by PySimpleGUI and PICO part is written by C.
 GUI part and PICO part communicate with USB_Serial.
@@ -15,24 +15,29 @@ More informations will take from PDF file.
 Recent Changes
 -------------------------------------
 2021_1019
+
 PICO_PIC_colo is version up to ver.2.
 (1)Variables which defined in PICO_PIC_colo debugger prefixed with PPC_.
  So, user should not touch variables with PPC_,and others are free to user.
+
 (2)User can use core1 freely.
 void core1_entry() function is moved to custom.c 
 Sample program uses core1 to blink LED.
 
 2021_0806
+
 Upload i2c_scanner, which is tiny application sample of PICO_PIC_colo.
 i2c_scanner.zip includes PICO_PIC_colo beta3, So you may down load this zip file only. 
 
 2021_0628
+
 PICO_PIC_colo updates to beta 3.
 This version can read/write large buffer upto 1024bytes.
 And "Hide Main" button works well.
 I hope this is final Beta :-p
 
 2021_0624
+
 PICO_PIC_colo updates to beta 2
 Sorry, I find some bugs when checking.
  This version can't read/write large buffer( over 1024bytes?) with serial.
